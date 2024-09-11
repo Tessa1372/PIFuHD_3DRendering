@@ -25,14 +25,13 @@ The MLPs in both the coarse and fine stages operate by sampling 3D points around
 **Applications**
 The PIFuHD framework has significant applications in fields such as:
 
-Virtual Avatars: Creating digital avatars for gaming, virtual reality, and metaverse platforms.
-Clothing Design: Simulating how garments fit and drape over a human body.
-Animation: Generating highly detailed 3D characters for movies, TV shows, and other media.
-Medical Imaging: Reconstructing human anatomy for better visualization in healthcare.
+Virtual Avatars: Creating digital avatars for gaming, virtual reality, and metaverse platforms. <br>
+Clothing Design: Simulating how garments fit and drape over a human body. <br>
+Animation: Generating highly detailed 3D characters for movies, TV shows, and other media.<br>
+Medical Imaging: Reconstructing human anatomy for better visualization in healthcare.<br>
 Technical Details
-Input: Single 2D image of a human subject.
-Output: High-resolution 3D model of the subject.
-Stages: Coarse PIFu (low-resolution) followed by Fine PIFu (high-resolution).
-Neural Networks: Multi-Layer Perceptrons (MLPs) for predicting 3D occupancy fields.
-Training Data: The system is typically trained on large datasets of 2D images paired with their corresponding 3D models, allowing it to learn the mapping from 2D pixel data to 3D space.
-Future Work
+Input: Single 2D image of a human subject.<br>
+Output: High-resolution 3D model of the subject.<br>
+Stages: Coarse PIFu (low-resolution) followed by Fine PIFu (high-resolution).<br>
+Neural Networks: Multi-Layer Perceptrons (MLPs) for predicting 3D occupancy fields.<br>
+Training Data: The system is typically trained on large datasets of 2D images paired with their corresponding 3D models, allowing it to learn the mapping from 2D pixel data to 3D space.<br>
